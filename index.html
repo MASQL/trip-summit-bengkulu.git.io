@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Open Trip Pendakian Gunung di Bengkulu - Bukit Kaba, Gunung Patah, Gunung Seblat" />
+        <meta name="author" content="Bengkulu Summit" />
+        <title>Bengkulu Summit - Open Trip Gunung & Wisata Alam Bengkulu</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap 5 Core CSS (CDN)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+        
+        <style>
+            :root {
+                --forest-primary: #1b4332;
+                --forest-secondary: #2d6a4f;
+                --forest-accent: #40916c;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            .bg-forest {
+                background-color: var(--forest-primary) !important;
+            }
+
+            .text-forest {
+                color: var(--forest-primary) !important;
+            }
+
+            .text-white-75 {
+                color: rgba(255, 255, 255, 0.85) !important;
+            }
+
+            .hero-header {
+                background: linear-gradient(rgba(18, 43, 32, 0.78), rgba(18, 43, 32, 0.85)),
+                            url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+
+            .feature {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 4rem;
+                width: 4rem;
+                font-size: 2rem;
+            }
+
+            .card {
+                transition: transform 0.25s ease, box-shadow 0.25s ease;
+            }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12) !important;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-forest sticky-top shadow-sm">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#!">
+                    <i class="bi bi-compass me-2 text-warning"></i>Bengkulu Summit
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#beranda">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#keunggulan">Keunggulan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#paket">Paket Trip</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#daftar">Daftar Trip</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header-->
+        <header class="hero-header py-5" id="beranda">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center my-5">
+                            <span class="badge bg-warning text-dark mb-3 px-3 py-2 text-uppercase fw-bold">Jelajahi Atap Bumi Rafflesia</span>
+                            <h1 class="display-4 fw-bolder text-white mb-3">Taklukkan Puncak Gunung Terbaik di Bengkulu</h1>
+                            <p class="lead text-white-75 mb-4">Bergabunglah dalam Open Trip pendakian aman, nyaman, dan penuh cerita bersama pemandu lokal berpengalaman. Cocok untuk pemula maupun pendaki berpengalaman!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-warning btn-lg px-4 me-sm-3 fw-bold text-dark" href="#paket">Lihat Jadwal & Paket</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#keunggulan">Kenapa Kami?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="keunggulan">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Kenapa Mendaki Bersama Kami?</h2>
+                    <p class="lead text-muted mb-0">Fokus menikmati keindahan alam, biar kami yang urus perlengkapan dan logistiknya</p>
+                </div>
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-forest text-white rounded-3 mb-3"><i class="bi bi-shield-check"></i></div>
+                        <h2 class="h4 fw-bolder">Guide Lokal Bersertifikat</h2>
+                        <p>Didampingi pemandu asli Bengkulu yang hafal seluk-beluk jalur pendakian, sumber mata air, dan prosedur pertolongan pertama di gunung.</p>
+                        <a class="text-decoration-none text-forest fw-bold" href="#daftar">
+                            Tanya Jadwal Trip
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-forest text-white rounded-3 mb-3"><i class="bi bi-cup-hot"></i></div>
+                        <h2 class="h4 fw-bolder">Logistik & Tenda Lengkap</h2>
+                        <p>Tidak perlu repot membawa alat berat. Tenda kapasitas 4 orang, alat masak, serta makan hangat selama di gunung sudah termasuk dalam paket.</p>
+                        <a class="text-decoration-none text-forest fw-bold" href="#paket">
+                            Cek Fasilitas Paket
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-forest text-white rounded-3 mb-3"><i class="bi bi-camera"></i></div>
+                        <h2 class="h4 fw-bolder">Dokumentasi Kece</h2>
+                        <p>Abadikan momen matahari terbit di atas lautan awan dengan dokumentasi foto dan video yang siap mempercantik media sosial Anda.</p>
+                        <a class="text-decoration-none text-forest fw-bold" href="#testimoni">
+                            Lihat Cerita Peserta
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing section (Paket Open Trip)-->
+        <section class="bg-light py-5 border-bottom" id="paket">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Pilihan Paket Open Trip Bengkulu</h2>
+                    <p class="lead mb-0">Pilih destinasi impianmu, bisa daftar sendirian (solo) maupun rombongan!</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <!-- Paket 1: Bukit Kaba -->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0 shadow-sm h-100">
+                            <div class="card-body p-5 d-flex flex-column">
+                                <div class="small text-uppercase fw-bold text-success">Ramah Pemula • 1.938 MDPL</div>
+                                <h3 class="fw-bold mt-1">Bukit Kaba (Rejang Lebong)</h3>
+                                <div class="mb-3">
+                                    <span class="display-5 fw-bold">Rp 250rb</span>
+                                    <span class="text-muted">/ pax</span>
+                                </div>
+                                <ul class="list-unstyled mb-4 flex-grow-1">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <strong>Durasi: 2 Hari 1 Malam</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Simaksi & Tiket Masuk Wisata
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Tenda & Alat Masak Tim
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Makan 3x + Kopi/Teh Hangat
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Guide & Dokumentasi
+                                    </li>
+                                    <li class="text-muted">
+                                        <i class="bi bi-x-circle me-2"></i>
+                                        Transportasi PP dari Kota Bengkulu
+                                    </li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a class="btn btn-outline-success fw-bold pilih-paket" href="#daftar" data-paket="Bukit Kaba (Rp 250.000)">Pilih Paket Ini</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Paket 2: Gunung Patah (Populer) -->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0 shadow border-warning border-2 h-100">
+                            <div class="card-body p-5 d-flex flex-column">
+                                <div class="small text-uppercase fw-bold text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    Favorit Ekspedisi • 2.850 MDPL
+                                </div>
+                                <h3 class="fw-bold mt-1">Gunung Patah (Kaur)</h3>
+                                <div class="mb-3">
+                                    <span class="display-5 fw-bold">Rp 850rb</span>
+                                    <span class="text-muted">/ pax</span>
+                                </div>
+                                <ul class="list-unstyled mb-4 flex-grow-1">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <strong>Durasi: 4 Hari 3 Malam</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Transportasi PP (Meeting Point Bengkulu)
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Ojek Kebun Kopi (PP)
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Tenda, Sleeping Bag & Matras
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Logistik Makan Full Selama Trip
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Porter Tim, Guide & P3K Standar
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Sertifikat Pendakian & Stiker
+                                    </li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a class="btn btn-warning fw-bold text-dark pilih-paket" href="#daftar" data-paket="Gunung Patah (Rp 850.000)">Pilih Paket Favorit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Paket 3: Gunung Seblat -->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body p-5 d-flex flex-column">
+                                <div class="small text-uppercase fw-bold text-muted">Menengah • 2.383 MDPL</div>
+                                <h3 class="fw-bold mt-1">Gunung Seblat (Lebong)</h3>
+                                <div class="mb-3">
+                                    <span class="display-5 fw-bold">Rp 550rb</span>
+                                    <span class="text-muted">/ pax</span>
+                                </div>
+                                <ul class="list-unstyled mb-4 flex-grow-1">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <strong>Durasi: 3 Hari 2 Malam</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Simaksi Taman Nasional Kerinci Seblat
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Tenda & Alat Masak Lengkap
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Makan 6x + Buah & Camilan
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Guide Lokal & Sweeper
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        Dokumentasi Foto & Video
+                                    </li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a class="btn btn-outline-success fw-bold pilih-paket" href="#daftar" data-paket="Gunung Seblat (Rp 550.000)">Pilih Paket Ini</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom" id="testimoni">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Kata Mereka yang Sudah Muncak</h2>
+                    <p class="lead mb-0">Pengalaman seru dari teman-teman pendaki di seluruh Indonesia</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-forest fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">"Awalnya ragu karena baru pertama kali naik gunung di luar Pulau Jawa. Ternyata tim Bengkulu Summit sangat ramah, makanannya enak banget di gunung, dan view kawah Bukit Kaba luar biasa!"</p>
+                                        <div class="small text-muted fw-bold">- Rina Oktaviani, Jakarta (Trip Bukit Kaba)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2-->
+                        <div class="card shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-forest fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">"Ekspedisi Gunung Patah bersama tim ini sangat terorganisir. Guide-nya sabar menemani sampai puncak dan danau kawah. Pasti ikut lagi kalau ada trip ke Gunung Seblat!"</p>
+                                        <div class="small text-muted fw-bold">- Dimas Pratama, Palembang (Trip Gunung Patah)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Booking section-->
+        <section class="bg-light py-5" id="daftar">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-forest text-white rounded-3 mb-3"><i class="bi bi-whatsapp"></i></div>
+                    <h2 class="fw-bolder">Amankan Kuota Pendakianmu</h2>
+                    <p class="lead mb-0">Isi formulir di bawah ini untuk terhubung langsung dengan admin kami via WhatsApp</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form id="bookingForm">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Masukkan nama lengkap..." required />
+                                <label for="name">Nama Lengkap</label>
+                            </div>
+                            <!-- Pilihan Gunung-->
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="mountain" required>
+                                    <option value="" selected disabled>-- Pilih Destinasi Gunung --</option>
+                                    <option value="Bukit Kaba (Rp 250.000)">Bukit Kaba - 2H1M (Rp 250.000)</option>
+                                    <option value="Gunung Patah (Rp 850.000)">Gunung Patah - 4H3M (Rp 850.000)</option>
+                                    <option value="Gunung Seblat (Rp 550.000)">Gunung Seblat - 3H2M (Rp 550.000)</option>
+                                </select>
+                                <label for="mountain">Pilih Paket Gunung</label>
+                            </div>
+                            <!-- Jumlah Peserta-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="pax" type="number" min="1" value="1" placeholder="Jumlah peserta" required />
+                                <label for="pax">Jumlah Peserta (Orang)</label>
+                            </div>
+                            <!-- Tanggal Keberangkatan-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="date" type="date" required />
+                                <label for="date">Rencana Tanggal Mendaki</label>
+                            </div>
+                            <!-- Catatan input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" placeholder="Catatan tambahan..." style="height: 8rem"></textarea>
+                                <label for="message">Catatan / Pertanyaan (Opsional)</label>
+                            </div>
+                            <!-- Submit Button-->
+                            <div class="d-grid">
+                                <button class="btn btn-success btn-lg fw-bold" id="submitButton" type="submit">
+                                    <i class="bi bi-whatsapp me-2"></i>Kirim Pendaftaran ke WhatsApp
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-forest text-white">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <p class="m-0">Copyright &copy; Bengkulu Summit Open Trip 2026. Salam Lestari!</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#!" class="text-white me-3 text-decoration-none"><i class="bi bi-instagram"></i> @bengkulusummit</a>
+                        <a href="#!" class="text-white text-decoration-none"><i class="bi bi-geo-alt"></i> Kota Bengkulu, Indonesia</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Custom Script-->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const tombolPaket = document.querySelectorAll('.pilih-paket');
+                const selectGunung = document.getElementById('mountain');
+
+                tombolPaket.forEach(function (tombol) {
+                    tombol.addEventListener('click', function () {
+                        const paketDipilih = this.getAttribute('data-paket');
+                        if (selectGunung && paketDipilih) {
+                            selectGunung.value = paketDipilih;
+                        }
+                    });
+                });
+
+                const bookingForm = document.getElementById('bookingForm');
+                if (bookingForm) {
+                    bookingForm.addEventListener('submit', function (event) {
+                        event.preventDefault();
+
+                        const nomorAdminWA = '6281234567890';
+
+                        const nama = document.getElementById('name').value.trim();
+                        const gunung = document.getElementById('mountain').value;
+                        const jumlah = document.getElementById('pax').value;
+                        const tanggal = document.getElementById('date').value;
+                        const catatan = document.getElementById('message').value.trim();
+
+                        const teksPesan = 
+                            `Halo Admin *Bengkulu Summit*, saya ingin mendaftar Open Trip:%0A%0A` +
+                            `*Nama:* ${nama}%0A` +
+                            `*Paket Gunung:* ${gunung}%0A` +
+                            `*Jumlah Peserta:* ${jumlah} Orang%0A` +
+                            `*Rencana Tanggal:* ${tanggal}%0A` +
+                            `*Catatan:* ${catatan ? catatan : '-'}`;
+
+                        const urlWhatsApp = `https://wa.me/${nomorAdminWA}?text=${teksPesan}`;
+                        window.open(urlWhatsApp, '_blank');
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
